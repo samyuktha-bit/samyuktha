@@ -1,0 +1,12 @@
+external css
+hyper link
+img
+interclass  code
+paragraph
+division
+float
+span
+navigation bar
+aside article
+table
+form

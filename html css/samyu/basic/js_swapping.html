@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            swapping two numbers
+        </title>
+        <script>
+            function swap(){
+            var num1 = 10;
+            var num2 = 20;
+            var temp = 0;
+            console.log("value of two numbers before swapping: "+num1+"  "+num2);
+            
+            temp = num1;
+            num1 = num2;
+            num2 = temp;
+            console.log("value of two numbers after swapping: "+num1+" "+num2);
+            return false;
+            }
+        </script>
+    </head>
+    </html>
+    <body>
+        <form>
+            <label for="num1">First Number</label>
+            <input type= "number" id='num1' name="num1" required/>
+            <br/><br/>
+            <label for="num2">second Number</label>
+            <input type= "number" id='num2' name="num2" required/>
+            <br/>
+            <br/>
+            <div id="result">
+                <label for="swap">swap:</label>
+                <input type= "submit" value="swap" class="onclick" onclick="return swap();"/>
+            </div>
+        </form>
+        </body>
+
+</html>

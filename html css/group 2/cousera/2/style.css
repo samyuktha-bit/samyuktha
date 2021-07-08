@@ -1,0 +1,5 @@
+h1{
+    text-align: center;          /*text alingment**/
+    color: blue;               /*text color*/
+     text-transform: uppercase;  /*text transformation into upper case or lower case*/   
+}

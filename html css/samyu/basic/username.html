@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <script type="text/javascript">
+    function validate(){
+        var user_name= document.getElementById("username").value;
+        var password= document.getElementById("password").value;
+
+        if((user_name=='admin') && (password=='admin')){
+            window.location.assign('success.html');
+            return false;
+        } else{
+            alert('invalid username or password');
+        }
+    }
+        </script>
+</head>
+<body>
+    <form method="POST">
+        <label for="userName">User Name:</label>
+        <input type="text" id="userName" name="userName" required/>
+        <br/><br/>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required/>
+<br/><br/>
+        <input type="submit" value="login" onclick="return validate():"/>
+               </form>
+</body>
+</html>
+    
